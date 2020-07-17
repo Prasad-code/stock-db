@@ -24,12 +24,12 @@ public class QuoteController {
 	private QuoteRep rep;
 	
 	@GetMapping("/{username}")
-	public List<String> getQuotes(@PathVariable("username") String username)
-	{
-		
-	 return getQuotesByUserName(username);
-				
-	}	
+	public List<String> getQuotes(@PathVariable("username") String username) {
+
+		return getQuotesByUserName(username);
+
+	}
+
 	
 	
 	
